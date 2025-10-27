@@ -8,7 +8,7 @@ while now() <= now1:
 
 let
   ip = "192.168.1.105"
-  port = 6969
+  port = 9001
   sock = newSocket()
 
 sock.connect(ip, Port(port))
